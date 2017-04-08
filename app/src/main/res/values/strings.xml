@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Band Find</string>
+    <string name="appDisplayName">BandFind</string>
+    <string name="bandnavinfo">About BandFind</string>
+    <string name="about">About Us</string>
+    <string name="bandnavmap">Band Map</string>
+    <string name="bandnavhome">Home</string>
+    <string name="bandnavadd">Add a Band</string>
+    <string name="bandnavfav">Favourite Bands</string>
+    <string name="UpdateBandTitle">Update a Band</string>
+    <string name="NewBandTitle">New Bands</string>
+    <string name="BandNameTitle">Name :</string>
+    <string name="BandGenreTitle">Genre :</string>
+    <string name="searchBandHint">Enter a Band Name</string>
+    <string name="searchBandType">Choose Band Type</string>
+    <string name="searchBandResult">Results</string>
+    <string name="google_maps_key">AIzaSyAKTvbgXaPn1M40fbuS8Z-3hb8KZbKnPq0</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="bandfindinfo">BandFind is a Concert Finding Application that allows users to look for bands that are playing. It shows how much tickets are and where the bands are playing.
+        \n \nUsers can favourite bands they like and use map to find exactly where bands are playing.</string>
+    <string name="infofooter">BandFind © 2016, Version 1.0</string>
+    <string name="BandName">Band Name</string>
+    <string name="BandPrice">Band Price</string>
+    <string name="BandGenre">Band Genre</string>
+    <string name="Address">Address</string>
+    <string name="Price">Price:</string>
+    <string name="CustomLocation">Custom Location?:</string>
+    <string name="AddressGeo">Enter an address (accurately) \n (If Blank Current Location is Used)</string>
+    <string name="LocationUpdate">Location Update?:</string>
+    <string name="HomeTitle">Bands Playing</string>
+    <string name="search">Search Bands</string>
+    <string name="InfoTitle">BandFind Info</string>
+    <string name="addresssearch">Search for an Address</string>
+    <string name="mapfav">Only Show Favourites?:</string>
+    <string name="moduleinfo">Developed by: Dylan Sage (20063614)</string>
+</resources>

@@ -1,0 +1,128 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ds.wit.bandfind.Fragment.EditFragment">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="486dp"
+        android:gravity="center"
+ >
+
+
+        <TextView
+            android:text="@string/UpdateBandTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#888"
+            android:id="@+id/updatebandhead"
+            android:windowSoftInputMode="adjustNothing"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="60dp"
+            android:fontFamily="sans-serif-light"
+            android:layout_height="20dp"
+            android:gravity="top"
+            android:text="@string/Price"
+            android:textColor="#000"
+            android:ems="10"
+            android:layout_below="@+id/editGenreSpinner"
+            android:layout_marginTop="15dp" />
+
+        <Switch
+            android:text="@string/LocationUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/locswitch"
+            android:fontFamily="sans-serif-light"
+            android:layout_below="@+id/editPriceSpinner"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/AddressGeo"
+            android:fontFamily="sans-serif-light"
+            android:ems="10"
+            android:id="@+id/clText2"
+            android:layout_below="@+id/locswitch"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dp" />
+
+        <ImageView
+            android:id="@+id/FavImgView"
+            android:layout_width="match_parent"
+            android:windowSoftInputMode="adjustNothing"
+            android:src="@drawable/ic_favourite_off"
+            tools:ignore="ContentDescription"
+            android:onClick="toggle"
+            android:minHeight="250dp"
+            android:minWidth="250dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/clText2"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:windowSoftInputMode="adjustNothing"
+            android:ems="10"
+            android:id="@+id/nameEditText"
+            android:layout_below="@+id/updatebandhead"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dp" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:id="@+id/editGenreSpinner"
+            android:layout_below="@+id/nameEditText"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginRight="20dp" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:id="@+id/editPriceSpinner"
+            android:layout_below="@+id/price"
+            android:layout_alignParentStart="true"
+            android:layout_marginRight="20dp" />
+
+        <Button
+            android:id="@+id/updateBandButton"
+            android:layout_width="150dp"
+            android:fontFamily="sans-serif-light"
+            android:layout_height="65dp"
+            android:onClick="update"
+            android:background="@drawable/updateabutton"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="12dp"
+            android:elevation="0dp" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

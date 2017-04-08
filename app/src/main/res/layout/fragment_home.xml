@@ -1,0 +1,54 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ds.wit.bandfind.Fragment.BandFragment">
+
+    <ImageView
+        android:id="@+id/listempty"
+        android:src="@drawable/emptylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:textColor="#000" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout">
+
+        <ListView
+            android:id="@+id/bandList"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp">
+        </ListView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <TextView
+        android:text="@string/HomeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#888"
+        android:id="@+id/infobandhead" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/search"
+        android:fontFamily="sans-serif-light"
+        android:ems="10"
+        android:id="@+id/searchBand"
+        android:layout_marginTop="35dp" />
+
+</FrameLayout>

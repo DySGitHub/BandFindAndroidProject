@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:fontFamily="sans-serif-light"
+            android:title="@string/bandnavhome"
+            />
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@drawable/ic_menu_addband"
+            android:fontFamily="sans-serif-light"
+            android:title="@string/bandnavadd" />
+
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@drawable/ic_menu_fav"
+            android:fontFamily="sans-serif-light"
+            android:title="@string/bandnavfav" />
+        <item
+            android:id="@+id/nav_bandmap"
+            android:icon="@drawable/ic_menu_map"
+            android:fontFamily="sans-serif-light"
+            android:title="@string/bandnavmap" />
+    </group>
+
+    <item android:title="@string/about">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:fontFamily="sans-serif-light"
+                android:icon="@drawable/ic_menu_info"
+                android:title="@string/bandnavinfo" />
+        </menu>
+    </item>
+
+</menu>

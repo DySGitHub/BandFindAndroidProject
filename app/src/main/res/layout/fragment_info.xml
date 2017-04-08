@@ -1,0 +1,83 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ds.wit.bandfind.Fragment.InfoFragment">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <TextView
+            android:text="@string/InfoTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#888"
+            android:id="@+id/infobandhead" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            app:srcCompat="@drawable/infoimg"
+            android:id="@+id/imageView2"
+            android:layout_below="@+id/infobandhead"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:layout_height="160dp" />
+
+        <TextView
+            android:text="@string/bandfindinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:ems="10"
+            android:fontFamily="sans-serif-light"
+            android:id="@+id/bandinfo"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="240dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+
+        <TextView
+            android:text="@string/moduleinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#888"
+            android:ems="10"
+            android:fontFamily="sans-serif-light"
+            android:id="@+id/author"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="455dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignEnd="@+id/bandinfo" />
+
+        <TextView
+            android:text="@string/infofooter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#888"
+            android:ems="10"
+            android:fontFamily="sans-serif-light"
+            android:id="@+id/version"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="475dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_alignEnd="@+id/bandinfo" />
+    </RelativeLayout>
+
+</FrameLayout>
+
+
